@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <title>Web bán nhạc cụ</title>
+    <link
+      rel="stylesheet"
+      href="../css/bootstrap.min.css"
+    />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .yellow {
+        color: yellowgreen;
+      }
+    </style>
+  </head>
+
+  <body cz-shortcut-listen="true">
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">Về chúng tôi</h4>
+              <p class="text-muted">
+                Là trang Web chuyên cung cấp các loại sản phẩm liên quan đến nhạc cụ
+                chủ yếu là các loại đàn như ghitar, Piano, Organ... Mọi quý khách truy
+                cập trang Web sẽ được hỗ trợ về việc mua hoặc tư vấn các loại nhạc cụ
+                bản thân đang cần
+              </p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Liên hệ/Contact</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <a
+                    href="https://zaloweb.me/"
+                    class="text-white"
+                    >Zalo</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://m.facebook.com/login"
+                    class="text-white"
+                    >Facebook</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.google.com/intl/vi/gmail/about/"
+                    class="text-white"
+                    >Email</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container d-flex justify-content-between">
+          <a
+            href="/index.html"
+            class="navbar-brand d-flex align-items-center"
+          >
+
+            <strong>Thông tin</strong>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarHeader"
+            aria-controls="navbarHeader"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/index.html">Trang chủ <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/html/login.html">Đặt hàng ngay</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Sản phẩm
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/html/piano.html">Piano</a>
+                        <a class="dropdown-item" href="/html/ghitar.html">Ghitar</a>
+                        <a class="dropdown-item" href="/html/organ.html">Organ</a>
+                        <a class="dropdown-item" href="/html/trong.html">Trống</a>
+                        <a class="dropdown-item" href="/html/sao.html">Kèn/Sáo</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+
+    </header>
+
+    <main role="main">
+      <section class="jumbotron text-center" style="background-image: url(../img/header.jpg); background-size: cover;">
+
+        <div class="container">
+          <h1>Nhạc cụ Hồ Nam</h1>
+          <p class="lead text-muted">
+            Mua nhạc cụ online, ship tận răng chỉ cần đặt hàng
+            <br>
+            Đăng nhập để mua hàng, đăng ký nếu chưa có tài khoản
+          </p>
+          <p>
+            <a
+              href="/html/login.html"
+              class="btn btn-primary my-2"
+              >Đăng nhập</a
+            >
+            <a
+              href="/html/register.html"
+              class="btn btn-secondary my-2"
+              >Đăng ký</a
+            >
+          </p>
+        </div>
+      </section>
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="my-5 yellow">Các Piano nổi bật</h2>
+          </div>
+        </div>
+      </div>
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <div class="ratio ratio-4x3 d-flex justify-content-center align-items-center">
+                  <div class="img-container">
+                    <img src="../img/piano1.jpg" alt="Thumbnail" />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    <h4>Kawai BL-51</h4>
+                    Là Piano được nhiều người tin dùng mới mức giá hợp lý, âm
+                    thanh khá tốt là Piano tốt nhất dành cho người mới
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Xem thêm
+                      </button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Đặt hàng
+                      </button>
+                    </div>
+                    <small class="text-muted">35.000.000 VND</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <div class="ratio ratio-4x3 d-flex justify-content-center align-items-center">
+                  <div class="img-container">
+                    <img src="../img/piano2.jpg" alt="Thumbnail" />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    <h4>Yamaha U1H</h4>
+                    Là Piano tầm trung với giá cả không quá cao, âm 
+                    thanh tốt, phù hợp với những ai đã quen bộ môn Piano
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Xem thêm
+                      </button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Đặt hàng
+                      </button>
+                    </div>
+                    <small class="text-muted">44.000.000 VND</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <div class="ratio ratio-4x3 d-flex justify-content-center align-items-center">
+                  <div class="img-container">
+                    <img src="../img/piano3.jpg" alt="Thumbnail" />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    <h4>Yamaha U2H</h4>
+                    Tương tự U1H nhưng chiếc Piano này được thiết kế 
+                    gọn nhẹ hơn đôi chút, chất lượng tương tự U1H
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Xem thêm
+                      </button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Đặt hàng
+                      </button>
+                    </div>
+                    <small class="text-muted">44.000.000 VND</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="my-5 yellow">Các Organ nổi bật</h2>
+          </div>
+        </div>
+      </div>
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row">
+
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <div class="ratio ratio-4x3 d-flex justify-content-center align-items-center">
+                  <div class="img-container">
+                    <img src="../img/organ1.jpg" alt="Thumbnail" />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    <h4>Roland E-X10</h4>
+                    Là chiếc Organ phù hợp cho việc học nhạc, chuyên
+                    dành cho người trưởng thành với giá mềm và âm thanh ổn
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Xem thêm
+                      </button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Đặt hàng
+                      </button>
+                    </div>
+                    <small class="text-muted">15.000.000 VND</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <div class="ratio ratio-4x3 d-flex justify-content-center align-items-center">
+                  <div class="img-container">
+                    <img src="../img/organ2.jpg" alt="Thumbnail" />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    <h4>Roland Keyboard JD-XI</h4>
+                    Là chiếc Organ phù hợp cho người thành thạo, muốn
+                    thêm trải nghiệm và chất lượng cao hơn về bộ môn organ
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Xem thêm
+                      </button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Đặt hàng
+                      </button>
+                    </div>
+                    <small class="text-muted">19.000.000 VND</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <div class="ratio ratio-4x3 d-flex justify-content-center align-items-center">
+                  <div class="img-container">
+                    <img src="../img/organ3.jpg" alt="Thumbnail" />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    <h4>Organ Casio SA-80</h4>
+                    Là chiếc Organ phù hợp cho việc học nhạc, chuyên
+                    dành cho trẻ nhỏ với thiết kế dễ thương, nhỏ gọn và
+                    âm thanh ổn
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Xem thêm
+                      </button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Đặt hàng
+                      </button>
+                    </div>
+                    <small class="text-muted">13.000.000 VND</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="my-5 yellow">Các Trống nổi bật</h2>
+          </div>
+        </div>
+      </div>
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row">
+
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <div class="ratio ratio-4x3 d-flex justify-content-center align-items-center">
+                  <div class="img-container">
+                    <img src="../img/trong1.jpg" alt="Thumbnail" />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    <h4>Roland VAD 507</h4>
+                    Là bộ trống điện đầy đủ, cơ bản nhất cho người chơi Trống
+                    với giá cả nhẹ nhàng và chất lượng tốt, dành cho người
+                    đang học Trống
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Xem thêm
+                      </button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Đặt hàng
+                      </button>
+                    </div>
+                    <small class="text-muted">12.500.000 VND</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <div class="ratio ratio-4x3 d-flex justify-content-center align-items-center">
+                  <div class="img-container">
+                    <img src="../img/trong2.jpg" alt="Thumbnail" />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    <h4>Pearl Export EXX725SP/C</h4>
+                    Thuộc loại trống Acoustic Drumset với thiết kế nhẹ nhàng
+                    cùng tông màu đỏ mạnh mẽ, chất lượng rất tốt, dành cho người
+                    thành thạo bộ môn Trống
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Xem thêm
+                      </button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Đặt hàng
+                      </button>
+                    </div>
+                    <small class="text-muted">14.500.000 VND</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <div class="ratio ratio-4x3 d-flex justify-content-center align-items-center">
+                  <div class="img-container">
+                    <img src="../img/trong3.jpg" alt="Thumbnail" />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    <h4>Roland TD-17KVX</h4>
+                    Là bộ trống điện với thiết kế nhỏ gọn, dễ di 
+                    chuyển, lắp ráp. Rất phù hợp với người hay trình 
+                    diễn ở nhiều nơi có chất lượng khá ổn cùng với tông
+                    màu đen cơ bản
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Xem thêm
+                      </button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Đặt hàng
+                      </button>
+                    </div>
+                    <small class="text-muted">15.000.000 VND</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <h2 class="my-5 yellow">Các Ghitar nổi bật</h2>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <div class="ratio ratio-4x3 d-flex justify-content-center align-items-center">
+                  <div class="img-container">
+                    <img src="../img/ghitar1.jpg" alt="Thumbnail" />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    <h4>Codoba C3M W/B</h4>
+                    Là classic ghitar phổ biến, được nhiều người tin dùng
+                    với tông màu vàng nâu đậm, âm thanh khá tốt, phù hợp
+                    cho người mới bắt đầu 
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Xem thêm
+                      </button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Đặt hàng
+                      </button>
+                    </div>
+                    <small class="text-muted">6.500.000 VND</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+                    
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <div class="ratio ratio-4x3 d-flex justify-content-center align-items-center">
+                  <div class="img-container">
+                    <img src="../img/ghitar2.jpg" alt="Thumbnail" />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    <h4> Fender LTD PLAYER STRAT</h4>
+                    Là chiếc ghitar điện với tông màu kết hợp giữa mạnh
+                    mẽ và nhẹ nhàng, âm thanh cũng tương tự vừa thanh lại 
+                    có chút trầm, phù hợp với dân chuyên nghiệp
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Xem thêm
+                      </button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Đặt hàng
+                      </button>
+                    </div>
+                    <small class="text-muted">7.500.000 VND</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <div class="ratio ratio-4x3 d-flex justify-content-center align-items-center">
+                  <div class="img-container">
+                    <img src="../img/ghitar3.jpg" alt="Thumbnail" />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    <h4> Takamine GD51CE-BSB</h4>
+                    Là ghitar với âm thanh khá nét, thiết kế đơn giản
+                    có thể chơi được hầu hết các thể loại nhạc vì sự 
+                    dễ tính của mình, phù hợp cho người hay đi biểu diễn
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Xem thêm
+                      </button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Đặt hàng
+                      </button>
+                    </div>
+                    <small class="text-muted">6.000.000 VND</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+
+
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <h2 class="my-5 yellow">Các Kèn/Sáo nổi bật</h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <div class="ratio ratio-4x3 d-flex justify-content-center align-items-center">
+                  <div class="img-container">
+                    <img src="../img/sao1.jpg" alt="Thumbnail" />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    <h4> Suzuki SRG-200</h4>
+                    Là chiếc sáo đơn giản, nhỏ và nhẹ, được làm từ
+                    gõ tre và gia công thêm, âm thanh nhẹ nhàng, chill
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Xem thêm
+                      </button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Đặt hàng
+                      </button>
+                    </div>
+                    <small class="text-muted">1.500.000 VND</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <div class="ratio ratio-4x3 d-flex justify-content-center align-items-center">
+                  <div class="img-container">
+                    <img src="../img/ken1.jpg" alt="Thumbnail" />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    <h4> Selmer AS650</h4>
+                    Là chiếc kèn khá to và đồ sộ nhưng có chất lượng
+                    âm thanh cực kỳ tốt, phù hợp cho người trưởng thành
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Xem thêm
+                      </button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Đặt hàng
+                      </button>
+                    </div>
+                    <small class="text-muted">143.000.000 VND</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <div class="ratio ratio-4x3 d-flex justify-content-center align-items-center">
+                  <div class="img-container">
+                    <img src="../img/ken2.jpg" alt="Thumbnail" />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    <h4>Suzuki Harmonica MR-200C</h4>
+                    Kèn Harmonica đơn giản, phổ biến, được nhiều người tin dùng
+                    phù hợp với những người mới về bộ môn này
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Xem thêm
+                      </button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Đặt hàng
+                      </button>
+                    </div>
+                    <small class="text-muted">1.500.000 VND</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="text-muted ">
+      <div class="container">
+        <p class="float-right">
+          <a href="/html/index.html"
+            >Lên lại đầu trang</a
+          >
+        </p>
+        <p>
+          <h4>CẢM ƠN QUÝ KHÁCH ĐÃ GHÉ THĂM</h4>
+          <br>
+          Hi vọng quý khách đã có những trải nghiệm tuyệt vời ở trang
+          <br>
+          và đã lựa chọn được sản phẩm mà mình mong muốn, nếu có bất kỳ
+          <br>
+          câu hỏi nào thì hãy liên hệ với chúng tôi 
+          <br>
+          <br>
+          (<strong>Phần liên hệ ở đầu trang Web</strong>)
+        </p>
+        <p>
+          <a href="https://getbootstrap.com/docs/4.0/examples/album/">Nguồn mẫu Web</a>
+        </p>
+      </div>
+    </footer>
+    <script
+      src="../js/jquery-3.6.1.min.js"
+    ></script>
+    <script
+      src="../js/bootstrap.bundle.min.js"
+    ></script>
+    <script
+      src="../js/bootstrap.min.js"
+    ></script>
+  </body>
+  <div id="slickdeals" data-initialized="1"></div>
+</html>
